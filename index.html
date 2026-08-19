@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benjamín Almonacid — Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- fondo decorativo -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <nav class="navbar">
+    <span class="navbar__brand">benjamin<span class="dot">.</span>dev</span>
+    <ul class="navbar__links">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero__terminal">
+      <div class="hero__terminal-bar">
+        <span class="dot dot--red"></span>
+        <span class="dot dot--yellow"></span>
+        <span class="dot dot--green"></span>
+        <span class="hero__terminal-title">benjamin@duocuc: ~/portafolio</span>
+      </div>
+
+      <div class="hero__terminal-body">
+        <div class="hero__photo-wrap">
+          <img src="assets/foto-benjamin.jpg" alt="Foto de Benjamín Almonacid" class="hero__photo">
+        </div>
+
+        <div class="hero__info">
+          <p class="hero__prompt">$ whoami</p>
+          <h1 class="hero__name">Benjamín Almonacid</h1>
+          <p class="hero__role">
+            <span class="type-target" id="typeTarget"></span><span class="cursor">_</span>
+          </p>
+          <p class="hero__subtitle">Estudiante de Ingeniería en Informática · Duoc UC</p>
+
+          <div class="hero__badges">
+            <span class="badge">Puerto Montt, Chile</span>
+            <span class="badge">Disponible part-time</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section reveal" id="sobre-mi">
+      <div class="section__heading">
+        <span class="section__eyebrow">01</span>
+        <h2>Sobre mí</h2>
+      </div>
+      <div class="card card--text">
+        <p>
+          Estudiante de Ingeniería en Informática, proactivo, responsable y disciplinado, en búsqueda de un
+          empleo part-time compatible con mis estudios. Cuento con experiencia previa en atención al público
+          en un entorno de alta demanda, donde he desarrollado facilidad para el trabajo en equipo, la
+          resolución de problemas bajo presión y el cumplimiento de tareas operativas. Mi trayectoria escolar,
+          cursada íntegramente sin repitencias, refleja constancia, orden y compromiso.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="habilidades">
+      <div class="section__heading">
+        <span class="section__eyebrow">02</span>
+        <h2>Habilidades técnicas</h2>
+      </div>
+      <div class="skills">
+        <span class="skill-tag">Java 17 &amp; Spring Boot 3.2.0</span>
+        <span class="skill-tag">MySQL &amp; Oracle SQL</span>
+        <span class="skill-tag">Docker &amp; Maven</span>
+        <span class="skill-tag">Seguridad JWT</span>
+        <span class="skill-tag">JavaScript, HTML &amp; CSS</span>
+        <span class="skill-tag">Postman &amp; Git</span>
+      </div>
+    </section>
+
+    <section class="section reveal" id="proyectos">
+      <div class="section__heading">
+        <span class="section__eyebrow">03</span>
+        <h2>Proyectos destacados</h2>
+      </div>
+      <div class="projects">
+
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>Sistema "QuickOrder"</h3>
+            <span class="project-card__date">1er semestre 2026</span>
+          </div>
+          <p>
+            Desarrollo de un sistema backend basado en microservicios con Java Spring Boot, con base de
+            datos Oracle SQL, seguridad implementada con JWT, despliegue en contenedores Docker y
+            documentación de la API en Postman.
+          </p>
+          <div class="project-card__tags">
+            <span>Java</span><span>Spring Boot</span><span>Docker</span><span>Oracle SQL</span><span>JWT</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>Salmonera PM</h3>
+            <span class="project-card__date">1er semestre 2025</span>
+          </div>
+          <p>
+            Proyecto de base de datos para una salmonera ("salmonera mejorada"), desarrollado como
+            evaluación de SQL, con interfaz web construida en JavaScript y HTML.
+          </p>
+          <div class="project-card__tags">
+            <span>SQL</span><span>JavaScript</span><span>HTML</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section reveal" id="experiencia">
+      <div class="section__heading">
+        <span class="section__eyebrow">04</span>
+        <h2>Experiencia</h2>
+      </div>
+      <div class="card card--text">
+        <div class="exp__head">
+          <h3>Atención al Cliente / Equipo</h3>
+          <span class="project-card__date">2024 · 3 meses</span>
+        </div>
+        <p class="exp__company">Juan Maestro (G&amp;N Brands)</p>
+        <ul class="exp__list">
+          <li>Atención directa y rápida al público en un entorno de alta demanda, manteniendo la calidad del servicio bajo presión.</li>
+          <li>Trabajo colaborativo con el equipo para el cumplimiento de tareas operativas, apoyando en el orden, la organización y la resolución de problemas del día a día.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="section__heading">
+      <span class="section__eyebrow">05</span>
+      <h2>Contacto</h2>
+    </div>
+    <div class="footer__links">
+      <a href="mailto:benjaminalmo943@gmail.com" class="footer__link">
+        <span>Email</span> benjaminalmo943@gmail.com
+      </a>
+      <a href="tel:+56986031847" class="footer__link">
+        <span>Teléfono</span> +56 9 8603 1847
+      </a>
+      <a href="https://github.com/yenyag" target="_blank" rel="noopener" class="footer__link">
+        <span>GitHub</span> github.com/yenyag
+      </a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Benjamín Almonacid · Alerce, Puerto Montt</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
